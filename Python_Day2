@@ -1,0 +1,27 @@
+Python is a high level programming language means it is easy for humans to understand and the coding is quite easy.
+It is an interpreted language, that means it checks the code line by line at the time of execution.
+It is a dynamic type of language in which specification of the datatype is not needed. Python itself assigns the datatype to the value at runtime.
+There are four types of data in python. They are :
+int,float,string,Boolean. 
+Datatype "int" is to specify integers (or) numbers, "float" is for decimals, "string" is for alphabets (or) words, "boolean" is either true or false which can be used for 'if' conditions,functions,decision making and while running loops.
+Variable is a memory allocation where we can store the data in it.
+We can do Type conversion in python.That means one datatype can be changed to other datatype, like interger to string (or) string to float etc.
+Type conversion can be done by type conversion methods.There are two types of type conversion methods 1)Implicit and 2)Explicit.
+Implicit type conversion is done by python interpreter, it assigns the datatype at runtime.
+Explicit type conversion means we need to specify the datatype to convert the value in to other datatype.
+Example:
+a=1
+Print(a)
+Print(type(a))
+b=str(a)
+Print(b)
+Print(type(b))
+
+Output:
+1
+<class ‘int’>
+1
+<class ‘str’>
+
+Like this we can do type conversion from one datatype to other.
+We need type convertion for compititive programming.
