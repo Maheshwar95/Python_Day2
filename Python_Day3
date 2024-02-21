@@ -1,0 +1,4 @@
+In python indexing starts with zero because it makes the code more readable and efficient.
+If there are 5 objects in a list, for example list=[“a”,”b,”,”c”,”d”,”e”] then the indexing happens like 0 for a, 1 for b, 2 for c, 3 for d, 4 for e.
+We use lists in python to store objects. Objects can be any type and we can store same type or different types of data in one list.
+Real life examples for lists are Refridgerator, Travel bag etc.
