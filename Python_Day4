@@ -1,0 +1,22 @@
+In python we can give underscore before the variable names, but if we give any numbers or signs then we get syntax error.
+There are two types of objects in python. They are Mutable and Immutable objects.
+Mutable objects means they can be changed or replaced after they are created.
+Example -  List , set, Dictionary, array
+When we need to modify, add or remove the existing data mutable objects are useful. 
+Immutable objects means they cannot be changed after they are created.
+Example - Integer, float, boolean, string, tuple
+When we need to keep the data consistent and unaltered by anyone then immutable objects are useful.
+List is a collection of data, we can store multiple objects in one variable is known as list. Elements or values stored in list can be called as items.
+In python, lists can be both homogeneous or heterogeneous .
+Homogeneous means it contains only single type of data, where as heterogeneous means it contains multiple types of data.
+We can add the item in the list using “.append”, item from the list can be removed by using “.pop or .remove” . We can also know the index of the item in the list using “.index”.
+Example :
+Nums=[1,”mango”]
+Nums.append(“apple”)
+Nums.remove(1)
+     Or
+Nums.pop(0)
+Print(nums)
+Print(nums.index(apple))
+Here .pop is used to remove item in a particular index so we give index.
+But in .remove we must give the item name that needs to be removed.
