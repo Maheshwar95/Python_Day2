@@ -1,0 +1,11 @@
+Time complexity in python is time taken by an algorithm to run, as a function of the length of the input.
+Time complexity of a list is as follows:
+Accessing an element by index >>  O(1)
+Inserting or deleting an element at the end >>  O(1)
+Inserting or deleting an element at the beginning or middle >>  O(n)
+Searching for an element >>  O(n)
+Sorting >>  O(n log n)
+Sets are used to store multiple items in a single variable, they are indicated with curly brackets { }
+For example : Set = {1,2,3,a,b,c,…..}
+Set is a collection of data which is unordered, unchangeable, unindexed.
+Time complexity of set in python is O(1)
