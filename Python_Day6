@@ -1,0 +1,25 @@
+PEP8 is a document that provides various guidelines to write readable code in python. It describes how the developer can write beautiful code.
+It was officially written in 2001 by Guido van Rossum, Barry Warsaw, and Nick Coghlan.
+PEP stands for “Python Enterprise Proposal”. 
+The main aim of PEP is to enhance the readability and consistency of a python code.
+Naming conventions, Indentations, Line breaks, opening and closing brackets , comments, inline comments etc comes under PEP 8.
+Reference link : https://www.javatpoint.com/pep-8-in-python
+Operators are used to perform operations on variables and values.
+Below are the python operators:
+Arithmetic Operators:   + , - , *, / , % , ** , //
+Assignment Operators:  = , += , -= , *= , /=, %= , //= , **= ,  &=, |= , ^= , >>= , <<=
+Comparison Operators: == , != , > , < , >= , <= 
+Logical Operators: and , or ,not
+Identity Operators: is , is not
+Membership Operators: in , not in
+Bitwise Operators:  And(&) , OR(|) , XOR(^) , NOT(~) , Zero fill left shift(<<) , Signed right shift(>>)
+For loop in python is used for iterating over a sequence(That is either a set, tuple, list, dictionary or a string)
+For example:
+ for i in range(4)
+        Print(i)
+Output:
+              0
+              1
+              2
+              3                   
+Here ‘for’ is used for iterating, ‘i’ refers to index, ‘range’ is range of values up to the given value from zero.
