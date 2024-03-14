@@ -1,2 +1,2 @@
-# Python_Day2
+# Python_course
 Python introduction
