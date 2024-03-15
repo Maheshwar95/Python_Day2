@@ -1,0 +1,14 @@
+Space complexity means it is the amount of memory an algorithm requires to run as a function of the input size.It helps to know the memory consumption of an algorithm. 
+Space complexity also expressed as Big O notation,which describes the upper bound of the algorithms memory usage.
+
+Space complexity and Time complexity of different methods in list:
+append() method has both space and time complexity of O(1) because it simply adds the new element at the end of the existing list. 
+extend() method has both space and time complexity of O(n) because it adds the multiple elements one by one at the end of the existing list.
+insert() method has space complexity of O(1) and the time complexity of O(n) because it inserts the element at a specified position in the list.
+remove() removes the specified element from the list.Deallocation of memory happens so O(1) is the space complexity. It needs to search the specified element from the list so O(n) is the time complexity.
+pop() removes an element from a specified position from the list. Both space and time complexity is O(1) because it only requires deallocating  memory for the removed element.
+index() returns the index of the first occurrence of an element in the list.Space complexity is O(1) because it only requires accessing the index of an element. Time complexity is O(n) because it needs to search the element in the list using index.
+sort() method sorts the elements in a list in ascending or descending order.Sorting algorithm is called Timsort algorithm. Space complexity is O(n). Time complexity is O(n logn).
+reverse() method reverses the order of the elements in the list.Space complexity is O(1) because it only requires swapping  the positions of elements in the list. Time complexity is O(n) .
+Sets in python has the time complexity of O(1)
+Hashing in python means giving an integer values for all the elements in the sets. So that when we are using the sets in python there is no need to assign the variables or values manually.
